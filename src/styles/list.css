@@ -1,0 +1,7 @@
+.boxList{
+    background-color: var(--grey);
+    padding: 1.4rem;
+    width: 80%;
+    background-image: none;
+    margin-top: 1.5rem;
+}
