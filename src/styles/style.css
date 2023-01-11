@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('../styles/header.css');
+
+* {
+    font-family: 'Handlee', cursive;
+    background-color: var(--blue);
+}
+
+:root {
+    --blue: #293761;
+    --orange: #ed7844;
+    --yellow: #fcecbd;
+    --grey: #a88e75;
+}
