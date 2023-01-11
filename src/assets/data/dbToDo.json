@@ -1,0 +1,18 @@
+{
+    "activities":[
+        {
+            "id": 0,
+            "activity":"Ver tutorial React"
+        },
+        {
+            "id": 1,
+            "activity":"Hacer ejercicios Codewars"
+        }
+        ,
+        {
+            "id": 2,
+            "activity":"Desarrollar figma del proyecto"
+        }
+    ]
+
+}
