@@ -4,9 +4,10 @@ const Form = () => {
   return (
     <>
    <form>
-        <input className='inActivity' type='text' placeholder='introduzca actividad'></input>
-
-        <button className='btnAgregar' type='submit'>agregar</button>
+        <div className='boxForm'>
+          <input className='inActivity' type='text' placeholder='introduzca actividad'></input>
+          <button className='btnAgregar' type='submit'>agregar</button>
+        </div>
     </form> 
     </>
   )
