@@ -1,0 +1,30 @@
+.boxMainWelcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.txtMainOne,.txtMainTwo{
+    color: var(--orange);
+}
+.txtMainOne{
+    font-size: 2rem;
+}
+.txtMainTwo{
+    font-size: 1rem;
+}
+.imgMainWelcome{
+    width: 16rem;
+    height: 16rem;
+}
+.btnMainWelcome{
+    margin-top: 1rem;
+    padding: 0.2rem;
+    color: var(--orange);
+    background-color: var(--yellow);
+    background-image: none;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 20%;
+    width: 10rem;
+    text-align: center;
+}
