@@ -1,22 +1,16 @@
 {
-    "activities":[
-        {
-            "id": 0,
-            "text":"Ver tutorial React"
-        },
-        {
-            "id": 1,
-            "text":"Hacer ejercicios Codewars"
-        }
-        ,
-        {
-            "id": 2,
-            "text":"Desarrollar figma del proyecto"
-        },
-        {
-            "id": 3,
-            "text":"Lo conseguimos"
-        }
-    ]
-
+  "activities": [
+    {
+      "id": 0,
+      "text": "Ver tutorial React"
+    },
+    {
+      "id": 2,
+      "text": "Desarrollar figma del proyecto"
+    },
+    {
+      "id": 3,
+      "text": "Lo conseguimos"
+    }
+  ]
 }
