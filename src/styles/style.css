@@ -9,8 +9,6 @@
 
 * {
     font-family: 'Handlee', cursive;
-    background-color: var(--blue);
-    background-image: url(../assets/images/argyle.png); 
     padding: 0;
     margin: 0;
     box-sizing: border-box;

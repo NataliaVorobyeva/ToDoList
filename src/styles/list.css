@@ -1,7 +1,10 @@
 .boxList{
-    background-color: var(--grey);
+    border-color:solid 1px var(--grey);
     padding: 1.4rem;
     width: 80%;
     background-image: none;
     margin-top: 1.5rem;
+    list-style: none;
+    border-radius: 0.5rem;
 }
+

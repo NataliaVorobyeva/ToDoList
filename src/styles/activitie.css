@@ -20,11 +20,13 @@ button{
 }
 
 .boxActivitie{
-    background-image: none;
+    border-radius: 0.5rem;
+    
     background-color: var(--lightgrey);
     display: flex;
     justify-content: space-between;
-   
+    padding: 0.5rem;
+    margin: 1rem;
 }
 
 .boxIcons{
