@@ -5,6 +5,7 @@
 }
 .txtMainOne,.txtMainTwo{
     color: var(--orange);
+    background-color: var(--blue);
 }
 .txtMainOne{
     font-size: 2rem;
