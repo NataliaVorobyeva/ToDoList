@@ -3,7 +3,7 @@ import pen from '../assets/images/pen-to-square-solid.svg'
 import trash from '../assets/images/trash-solid.svg'
 import '../styles/style.css'
 
-const Activitie = (props) => {
+const Activitie = (props, {deleteActivity}) => {
   return (
     <>
         <div className='boxActivitie'>
@@ -12,7 +12,7 @@ const Activitie = (props) => {
               <button>
                 <img src={pen} alt='cambia tu actividad'/>
               </button>
-              <button>
+              <button onClick={deleteActivity()}>
                <img src={trash} alt='borra esa actividad de la lista'/>
               </button>
             </div>

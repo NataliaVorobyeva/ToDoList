@@ -11,14 +11,14 @@ const CallAxios = () => {
         
     };
 
-   /* const create = async (data) => {
-        const res = await axios.post(url, data);
+    const trash = async (id) => {
+        let urlActivity = `${url}/${id}`;
+        const res = await axios.delete(urlActivity);
         return res;
     };
 
-    const destroy = async (id) => {
-        let urlID = `${url}/${id}`;
-        const res = await axios.delete(urlID);
+   /* const create = async (data) => {
+        const res = await axios.post(url, data);
         return res;
     };
 
@@ -30,8 +30,8 @@ const CallAxios = () => {
  
     return {
         get,
+        trash,
         //create,
-        //destroy,
         //update,
         url
     };
