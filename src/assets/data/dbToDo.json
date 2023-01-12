@@ -1,10 +1,6 @@
 {
   "activities": [
     {
-      "id": 0,
-      "text": "Ver tutorial React"
-    },
-    {
       "id": 2,
       "text": "Desarrollar figma del proyecto"
     },
