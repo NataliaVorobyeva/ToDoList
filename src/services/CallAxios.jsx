@@ -17,12 +17,12 @@ const CallAxios = () => {
         return res;
     };
 
-   /* const create = async (data) => {
+    const post = async (data) => {
         const res = await axios.post(url, data);
         return res;
     };
 
-    const update = async (data) => {
+    /*const update = async (data) => {
         let urlID = `${url}/${data.id}`;
         const res = await axios.put(urlID, data);
         return res;
@@ -31,7 +31,7 @@ const CallAxios = () => {
     return {
         get,
         trash,
-        //create,
+        post,
         //update,
         url
     };
