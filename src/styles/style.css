@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('../styles/header.css');
+@import url('../styles/form.css');
+@import url('../styles/mainWelcome.css');
+@import url('../styles/activitie.css');
+@import url('../styles/list.css');
+@import url('../styles/toDoPage.css');
+
+
+* {
+    font-family: 'Handlee', cursive;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue: #293761;
+    --orange: #ed7844;
+    --yellow: #fcecbd;
+    --grey: #a88e75;
+    --lightgrey: #d9d9d9;
+}

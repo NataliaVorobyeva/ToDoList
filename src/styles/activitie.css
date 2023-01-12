@@ -1,0 +1,35 @@
+img {
+    width: 1rem;
+    color: var(--orange);
+    background-image: none;
+    background-color: var(--lightgrey);
+}
+
+p{
+    background-image: none;
+    background-color: var(--lightgrey);
+}
+
+button{
+    background-image: none;
+    background-color: var(--lightgrey);
+    border: none;
+    height: 1.5rem;
+    padding-right: 0.5rem;
+    
+}
+
+.boxActivitie{
+    border-radius: 0.5rem;
+    
+    background-color: var(--lightgrey);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.boxIcons{
+    display: flex;
+    align-items: center;
+}

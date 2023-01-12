@@ -1,0 +1,22 @@
+.boxForm{
+    background-color: var(--orange);
+    width: 20rem;
+    padding: 1.4rem;
+    border-radius: 0.5rem;
+}
+
+.inActivity{
+    height: 1rem;
+    background-color: var(--yellow);
+    color:black;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.btnAgregar {
+    background-color: var(--grey);
+    width: 4rem;
+    border-radius: 0.5rem;
+}
