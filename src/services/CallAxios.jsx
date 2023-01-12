@@ -17,7 +17,7 @@ const CallAxios = () => {
         return res;
     };
 
-    const post = async (data) => {
+    const submit = async (data) => {
         const res = await axios.post(url, data);
         return res;
     };
@@ -31,7 +31,7 @@ const CallAxios = () => {
     return {
         get,
         trash,
-        post,
+        submit,
         //update,
         url
     };

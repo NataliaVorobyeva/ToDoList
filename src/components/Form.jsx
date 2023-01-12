@@ -6,13 +6,22 @@ const Form = ({ addedInput, setAddedInput }) => {
   const handleInputChange = (event) => {
     setAddedInput({
       ...addedInput,
-      [event.target.text]: event.target.value
+      [event.target.name]: event.target.value
     })
   }
+  const newData = (data) => {
+    CallAxios().submit(data).then(res => {
+      setActivities[...activity, res.data]
+    })
 
-  const handleSubmit = (event,) => {
+  }
+
+  const handleSubmit = (event) => {
     event.preventDefault();
-    CallAxios().post(addedInput);
+    
+    ;
+ 
+
 
   }
 
@@ -20,7 +29,7 @@ const Form = ({ addedInput, setAddedInput }) => {
     <>
    <form onSubmit={handleSubmit}>
         <div className='boxForm'>
-          <input className='inActivity' type='text' text='text' placeholder='introduzca actividad' onChange={handleInputChange} required ></input>
+          <input className='inActivity' type='text' name='text' placeholder='introduzca actividad' onChange={handleInputChange} required ></input>
           <button className='btnAgregar' type='submit'>agregar</button>
         </div>
     </form> 
