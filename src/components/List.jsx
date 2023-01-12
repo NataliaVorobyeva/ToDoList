@@ -7,18 +7,21 @@ import CallAxios from '../services/CallAxios'
 const List = () => {
 
 const [activity, setActivities] = useState([]);
+
 async function callGet(){
   await CallAxios().get()
   .then(res => {
     setActivities(res.data)
   })
-}
+  }
   useEffect(() => {callGet()},[])
 
  async function deleteActivity(id){
   await CallAxios().trash(id)
-  await CallAxios().get()
+  const fiteredActivities=activity.filter(task =>task.id !== id)
+  setActivities(fiteredActivities)
   }
+  useEffect(() => {callGet()},[])
 
 return(
     <>
