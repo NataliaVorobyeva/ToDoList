@@ -9,16 +9,11 @@ const Form = ({ addedInput, setAddedInput }) => {
       [event.target.name]: event.target.value
     })
   }
-  const newData = (data) => {
-    CallAxios().submit(data).then(res => {
-      setActivities[...activity, res.data]
-    })
-
-  }
+ 
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    
+    CallAxios().submit(addedInput)
     ;
  
 
