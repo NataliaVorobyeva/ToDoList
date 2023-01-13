@@ -2,31 +2,30 @@
   "activities": [
     {
       "id": 0,
-      "text": "Ver tutorial React"
+      "text": "Ver tutorial React I"
     },
     {
-      "id": 2,
-      "text": "Desarrollar figma del proyecto"
+      "id": 0,
+      "text": "Ver tutorial React II"
     },
     {
-      "text": "qqqqq",
-      "id": 3
+      "id": 0,
+      "text": "Ver tutorial React III"
     },
     {
-      "text": "aaaaa",
-      "id": 4
+      "id": 0,
+      "text": "Ver tutorial React IV"
     },
     {
-      "text": "ggfhghgfh",
-      "id": 5
+      "id": 0,
+      "text": "Ver tutorial React V"
     },
     {
-      "text": "zxc",
-      "id": 6
-    },
-    {
-      "text": "zz",
-      "id": 7
+      "id": 0,
+      "text": "Ver tutorial React VI"
+    },    {
+      "id": 0,
+      "text": "Ver tutorial React VII"
     }
   ]
 }
